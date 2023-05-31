@@ -1,0 +1,67 @@
+:root {
+  --font-family-default: 'Barlow Semi Condensed', sans-serif;
+
+  /*font-weight*/
+  --fw-regular: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+
+  /*font-size*/
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.75rem;
+  --fs-800: 3.5rem;
+  --fs-900: 4.5rem;
+
+  /* gap */
+  --gap-100: 0.5rem;
+  --gap-200: 0.75rem;
+  --gap-300: 1rem;
+  --gap-400: 1.5rem;
+  --gap-500: 2rem;
+
+  /* padding */
+
+  --padding-100: 1rem;
+  --padding-200: 1.5rem;
+  --padding-300: 2rem;
+  --padding-400: 2.5rem;
+
+  /* bg */
+
+  --bg-violet: hsl(263, 55%, 52%);
+  --bg-gray-blue: hsl(217, 19%, 35%);
+  --bg-black-blue: hsl(219, 29%, 14%);
+  --bg-white: hsl(0, 0%, 100%);
+
+  /* clr */
+
+  --clr-light-grey: 0, 0%, 81%;
+  --clr-gray-blue: 210, 46%, 95%;
+
+}
+
+.profile,
+.profile-info {
+  display: flex;
+}
+
+.profile {
+  align-items: center;
+  gap: var(--gap-300);
+}
+
+.profile-info {
+  flex-direction: column;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.grid-item {
+  padding: var(--padding-100);
+}
+
